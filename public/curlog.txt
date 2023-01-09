@@ -1,0 +1,64 @@
+*   Trying 64.76.154.231:443...
+* Connected to sms.lanube.cl (64.76.154.231) port 443 (#0)
+* ALPN: offers http/1.1
+*  CAfile: /opt/homebrew/etc/openssl@1.1/cert.pem
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN: server accepted http/1.1
+* Server certificate:
+*  subject: CN=*.lanube.cl
+*  start date: Mar 31 00:00:00 2022 GMT
+*  expire date: May  1 23:59:59 2023 GMT
+*  subjectAltName: host "sms.lanube.cl" matched cert's "*.lanube.cl"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Domain Validation Secure Server CA
+*  SSL certificate verify ok.
+> GET /services/rest/greet HTTP/1.1
+Host: sms.lanube.cl
+Accept: */*
+Accept-Encoding: deflate, gzip, br, zstd
+Content-type:  text/plain
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 401 Unauthorized
+< Server: nginx/1.12.2
+< Date: Tue, 02 Aug 2022 20:47:50 GMT
+< Content-Type: text/html
+< Content-Length: 1094
+< Connection: keep-alive
+< X-Powered-By: Servlet/3.1 JSP/2.3 (GlassFish Server Open Source Edition  4.1.2  Java/Oracle Corporation/1.8)
+< Pragma: No-cache
+< Cache-Control: no-cache
+< Expires: Wed, 31 Dec 1969 21:00:00 CLST
+< WWW-Authenticate: Basic realm="ws-realm"
+< Content-Language: 
+< 
+* Ignoring the response-body
+* Connection #0 to host sms.lanube.cl left intact
+* Issue another request to this URL: 'https://sms.lanube.cl/services/rest/greet'
+* Found bundle for host: 0x600002848090 [serially]
+* Re-using existing connection #0 with host sms.lanube.cl
+* Connected to sms.lanube.cl (64.76.154.231) port 443 (#0)
+* Server auth using Basic with user 'magister42662456'
+> GET /services/rest/greet HTTP/1.1
+Host: sms.lanube.cl
+Authorization: Basic bWFnaXN0ZXI0MjY2MjQ1Njo=
+Accept: */*
+Accept-Encoding: deflate, gzip, br, zstd
+Content-type:  text/plain
+
+* Mark bundle as not supporting multiuse
+< HTTP/1.1 401 Unauthorized
+< Server: nginx/1.12.2
+< Date: Tue, 02 Aug 2022 20:47:50 GMT
+< Content-Type: text/html
+< Content-Length: 1094
+< Connection: keep-alive
+< X-Powered-By: Servlet/3.1 JSP/2.3 (GlassFish Server Open Source Edition  4.1.2  Java/Oracle Corporation/1.8)
+< Pragma: No-cache
+< Cache-Control: no-cache
+< Expires: Wed, 31 Dec 1969 21:00:00 CLST
+* Authentication problem. Ignoring this.
+< WWW-Authenticate: Basic realm="ws-realm"
+< Content-Language: 
+< 
+* Connection #0 to host sms.lanube.cl left intact

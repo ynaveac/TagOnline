@@ -1,0 +1,19 @@
+{
+    "font awesome 6 brands": {
+        "normal": "font_awesome_6_brands_normal_732b523aac283a9b25b921525e2a2afd"
+    },
+    "font awesome 6 free": {
+        "normal": "C:\\xampp\\htdocs\\AdminLTE-Twilio-MSM\\storage\\fonts\/font_awesome_6_free_normal_03a5e810be49af94cd835c57e1d703a4",
+        "900": "font_awesome_6_free_900_7822734624b9f091020e009e4175b8d3"
+    },
+    "font awesome 5 brands": {
+        "normal": "font_awesome_5_brands_normal_732b523aac283a9b25b921525e2a2afd"
+    },
+    "font awesome 5 free": {
+        "900": "C:\\xampp\\htdocs\\AdminLTE-Twilio-MSM\\storage\\fonts\/font_awesome_5_free_900_7822734624b9f091020e009e4175b8d3",
+        "normal": "font_awesome_5_free_normal_03a5e810be49af94cd835c57e1d703a4"
+    },
+    "fontawesome": {
+        "normal": "fontawesome_normal_721a43e82d4c8246ba78ab541e91bb9b"
+    }
+}

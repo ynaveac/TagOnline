@@ -1,0 +1,11 @@
+#canvas{
+
+    border  : 1px solid rgb(157, 154, 154);
+}
+
+.edit-form-data > i.fa-edit {
+    color:green;
+}
+.delete-form_data > i.fa-trash-alt {
+    color: #e41515;
+}
